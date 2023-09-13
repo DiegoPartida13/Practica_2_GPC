@@ -1,18 +1,27 @@
-<html>
-    <head>
-        <link rel="stylesheet" href="/css/style.css">
-    </head>
-
-    <body>
-        <form action="/cgi-bin/index.py" method="get">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css"> 
+  <title>Iniciar sesión</title>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-header">
+      <h1>Iniciar sesión</h1>
+    </div>
+    <img src="images/Virtuoso_FW17_Playing_Cards_8.jpg" alt="CARDISTRY">
+    <form action="/cgi-bin/index.py" method="get">
 <!--    <form action="/cgi-bin/index.py" method="post"> -->
             User: <input type="text"     name="user"   ></br>
             Pass: <input type="password" name="pass"   ></br>
-	          <input type="submit"   value="enviar">
+                  <input type="submit"   value="enviar">
         </form>
 
 
         <script src="/js/script.js"></script>
 
-    </body>
+  </div>
+</body>
 </html>
